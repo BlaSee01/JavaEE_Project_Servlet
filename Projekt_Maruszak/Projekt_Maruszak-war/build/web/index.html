@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STRONA GŁÓWNA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f0f0f0; /* Kolor tła */
+            margin: 0; /* Usunięcie marginesów */
+            padding: 0; /* Usunięcie wypełnienia */
+            display: flex; /* Ustawienie kontenera na flexbox */
+            justify-content: center; /* Wyśrodkowanie zawartości w poziomie */
+            align-items: center; /* Wyśrodkowanie zawartości w pionie */
+            height: 90vh; /* Wysokość kontenera do wysokości widoku */
+        }
+        .container {
+            width: 30%; /* Szerokość kontenera */
+            background-color: #fff; /* Kolor tła kontenera */
+            padding: 15px; /* Wypełnienie kontenera */
+            border-radius: 10px; /* Zaokrąglenie krawędzi kontenera */
+            border: 2px solid #000; /* Obramowanie */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień kontenera */
+            min-height: 80vh; /* Minimalna wysokość kontenera do 80% wysokości widoku */
+            display: flex; /* Ustawienie kontenera na flexbox */
+            flex-direction: column; /* Ustawienie kierunku zawartości na pionowy */
+            text-align: center; /* Wyśrodkowanie zawartości tekstu */
+        }
+        h1 {
+            color: #555; /* Kolor napisu */
+        }
+        form {
+            margin-top: 20px; /* Odstęp między napisem a przyciskiem */
+        }
+        input[type="submit"] {
+            padding: 10px 20px; /* Wielkość przycisku */
+            background-color: #e0e; /* Kolor tła przycisku */
+            color: #fff; /* Kolor tekstu przycisku */
+            border: 2px solid #000; /* Obramowanie */
+            border-radius: 5px; /* Zaokrąglenie krawędzi przycisku */
+            cursor: pointer; /* Zmiana kursora na wskaźnik */
+            transition: background-color 0.3s; /* Płynne przejście koloru tła */
+        }
+        input[type="submit"]:hover {
+            background-color: #666; /* Kolor tła przycisku po najechaniu */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MP3 PLAYER</h1>
+        <form action="IndexServlet" method="post">
+            <input type="submit" value="Przejdź">
+        </form>
+    </div>
+</body>
+</html>
