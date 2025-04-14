@@ -1,0 +1,32 @@
+# Kompilowane pliki Java
+*.class
+
+# Katalogi IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Buildy
+target/
+build/
+
+# Systemowe śmieci
+.DS_Store
+Thumbs.db
+
+# Tomcat work/cache
+work/
+logs/
+
+# Konfiguracja lokalna
+.env
+*.log
+*.tmp
+
+# Pliki tymczasowe i backupy
+*.bak
+*.swp
+*.swo
+*~
