@@ -18,11 +18,11 @@ To aplikacja webowa zbudowana w oparciu o Java EE, pokazująca jak tworzyć syst
 2. Zaimportuj projekt do IDE (Eclipse / IntelliJ).
 3. Skonfiguruj połączenie z bazą danych w odpowiednich klasach (np. `DBConnection`).
 4. Uruchom aplikację na serwerze.
-5. Przejdź do `http://localhost:8080/Projekt_Maruszak` w przeglądarce.
+5. Przejdź do `http://localhost:8080/Projekt` w przeglądarce.
 
 ## 📁 Struktura projektu
 
-- `/Projekt_Maruszak` – główna aplikacja webowa
+- `/Projekt` – główna aplikacja webowa
   - `/src` – logika biznesowa (servlety, modele, DAO)
   - `/WebContent` – JSP, HTML, pliki statyczne
 - `/Projekt_lib` – biblioteka pomocnicza (klasy narzędziowe)
