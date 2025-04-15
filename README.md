@@ -1,7 +1,4 @@
 # JavaEE_Projekt
-
-## 📌 Opis
-
 To aplikacja webowa zbudowana w oparciu o Java EE, pokazująca jak tworzyć system zarządzania użytkownikami (lub kontaktami/zadaniami). Projekt zawiera system logowania, formularze JSP, serwlety przetwarzające dane oraz komunikację z bazą danych.
 
 ## 🧱 Technologie
