@@ -31,6 +31,6 @@ To aplikacja webowa zbudowana w oparciu o Java EE, pokazująca jak tworzyć syst
 - Dodawanie, edytowanie, usuwanie danych
 - Prosta walidacja danych
 
-## 📌 Autor
+## Autor
 
 Projekt stworzony w ramach studiów przez [BlaSee01](https://github.com/BlaSee01)
